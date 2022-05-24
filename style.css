@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: burlywood;
+    color: white;
+    
+}
+.left{
+    width: 80%;
+    justify-content: space-between;
+    background-color: burlywood;
+    color: white;
+    
+}
+.left ul{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    text-decoration: none;
+    vertical-align: middle;
+    padding: 5px;
+    width: 70%;
+    justify-content: space-between;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    line-height: 42px;
+}
+.right{
+    float: right;
+    width: 20%;
+    padding: 10px 5px;
+}
+.container{
+    width: 95%;
+    padding: 5px;
+    background: white;
+}
+
+/* when using toggle and transition to change classes the changing properties must appear in both styling   */
+.sub_container{
+    position: relative;
+    width: 50%;
+    left: 0px;
+    transition: all 1s linear;
+    padding: 0px 2px ;
+    background: rgb(55, 155, 55);
+    text-align: center;
+    
+
+}
+.off{
+    left: 50%;
+    background: rgb(190, 75, 75);
+    
+
+}
+
+
